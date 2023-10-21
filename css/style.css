@@ -16,7 +16,7 @@ body{
     padding: 5% 5%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 5% 5% 70% 10%;
+    grid-template-rows: 5% 5% 80% 10%;
     grid-gap: 2%;
     grid-template-areas:
 
