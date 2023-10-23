@@ -1,5 +1,5 @@
 @import "postcard.css";
-@import "linkColors.css";
+@import "navLink.css";
 @import "blogPost.css";
 
 
@@ -41,18 +41,13 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     background-color: #8dc8d8;
     padding: 5%;
     border-radius: 25px;
     font-size: large;
 
-}
-
-.navlink{
-    color: #051a2f;
-    font-weight: bold;
 }
 
 .main{
@@ -106,7 +101,9 @@ body{
     }
 
     .footer{
-        padding: 2% 1% 2% 1%;
+        padding: 2% 5% 5% 5%;
+        margin: 5%;
+        vertical-align: middle;
     }
 
     .cardContainer{
